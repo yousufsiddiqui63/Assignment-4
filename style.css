@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+html,body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.73em;
+    overflow-x: hidden;
+}
+#navbar{
+    background-color: #333;
+    overflow: auto;
+}
+#navbar a{
+    color: #fff;
+
+}
+#navbar h1{
+    margin-top: 20px;
+    float: left;
+    
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover{
+    background-color: purple;
+    color: aqua;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: auto;
+}
+#header{
+   
+    background:url(./Asset/hotel\ 03.webp) no-repeat center center/cover;
+    height: 95vh;
+    color: #fff;
+    text-align: center;
+}
+#header .header-content{
+    margin: 250px;
+
+}
+.text{
+    color: darkkhaki;
+}
+#header .header-content h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+}
+.btn{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 20px; 
+}
+.btn:hover{
+    color:chocolate;
+    background-color: #333;
+}
+/* intro */
+#intro{
+    height: 115vh;
+    background-color: #333;
+}
+#intro .image {
+    background: url(./Asset/image-11.jpg) no-repeat center center/cover ;
+    width: 50%;
+    float: left;
+    min-height: 100%;
+}
+#intro .content h1{
+    
+    text-align: center;
+    color: #fff;
+
+}
+.textp{
+    color: greenyellow
+}
+#intro .content{
+    text-align: center;
+    padding: 200px 50px;
+    float: right;
+    width: 50%;
+    line-height: 40px;
+}
+.btn-light{
+    margin: 10px auto;
+    color: #fff;
+    background-color:black;
+    padding: 5px 5px;
+    display: block;
+    width: 20%;
+}
+.btn-light:hover{
+    background-color: gold;
+    color: black;
+}
+.box1{width: 33.3%;
+    float: left;
+    background-color: #4d2b2b;
+    color: black;
+    padding: 50px 20px;
+    height: 50vh;
+    text-align: center;
+}
+    .box2{width: 33.3%;
+        float: left;
+        background-color:gold;
+        color: black;
+        padding: 50px 20px;
+        height: 50vh;
+        text-align: center;
+       
+    }
+        .box3{width: 33.3%;
+            float: left;
+            background-color: peru;
+            color: black;
+            padding: 50px 20px;
+            height: 50vh;
+            text-align: center;
+    }
+            #footer{
+                text-align: center;
+                background-color: #333;
+                color: #dd9090;
+                padding: 10px 0;
+            }
